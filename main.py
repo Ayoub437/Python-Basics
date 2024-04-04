@@ -21,6 +21,7 @@ print((3.658 + 4.21) * (54.23 - 5.23))
 z = 0.5
 print(30 - z)
 
+# Using integers
 kk = 44
 print(60 - kk)
 
@@ -84,3 +85,14 @@ year = "2019"
 print("In the " + year + " the student " + student + " and his friends had a " + incident)
 
 print(name)
+
+# I want to execute a new value with same variable
+my_age = 22
+print(my_age)
+# Der ursprüngliche Wert wird überschrieben und ist somit nicht mehr verfügbar.
+my_age = 30
+print(my_age)
+
+# A new way to assign a certain value several variables
+a = b = c = 1
+print(c)
