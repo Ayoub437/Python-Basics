@@ -33,6 +33,12 @@ print(20 - 10 * 3 + 50)
 print((80 - 40) + 25 * 2 - (15 + 90))
 print((55 - 22) * (31 - 2))
 
+# Just a scientific mathematical notation
+# Das "e" steht nur für mal 10 hoch was daneben steht.
+print(1e7)
+print(234.345e3)
+print(234.22e-3)
+
 # Playing with variables and operants
 name = "Ayoub"
 print("My name is " + name)
