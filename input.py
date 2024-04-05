@@ -25,6 +25,12 @@ city = input()
 print("I just wanna tell you " + city)
 input()
 
+# Another kind of input-function
+# The string inside the input-function will appear in the console. I can write something next to the string in the console and the writing will be in green.
+# After I did it, it will emitted in the next line in the console.
+subject = input("Please enter your name:")
+print(subject)
+
 # More exercises with input function
 print("Hello dear class")
 presentation = input()
