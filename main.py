@@ -86,6 +86,12 @@ print("In the " + year + " the student " + student + " and his friends had a " +
 
 print(name)
 
+# Input-function
+value1 = input("Gebe die erste Zahl ein: ")
+value2 = input("Gebe die zweite Zahl ein: ")
+# If I use the print-function for these variables, they will be printed as well.
+print(value1, value2)
+
 # I want to execute a new value with same variable
 my_age = 22
 print(my_age)
@@ -93,6 +99,6 @@ print(my_age)
 my_age = 30
 print(my_age)
 
-# A new way to assign a certain value several variables
+# A new way to assign a certain value to several variables
 a = b = c = 1
 print(c)
