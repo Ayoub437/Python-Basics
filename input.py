@@ -3,7 +3,8 @@
 # Through these parentheses the input-funtion will be executed.
 # The input-function stops the other print command.
 # As soon as the input command is executed, the program stops and wait for an input from the user in the console.
-# If I assign the input-function to a variable, then I use that variable in the print-command.
+# If I assign the input-function to a variable, then I use that variable in the print-command in the next line.
+# If I do that, The value of that variable, in this case input-function, is to be printed in the console.
 # Die Eingabe tätige ich in der Konsole.
 print("Eating")
 time = input()
