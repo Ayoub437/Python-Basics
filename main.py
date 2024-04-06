@@ -99,6 +99,6 @@ print(my_age)
 my_age = 30
 print(my_age)
 
-# A new way to assign a certain value to several variables
+# A new way to assign a certain value to several variables.
 a = b = c = 1
 print(c)
