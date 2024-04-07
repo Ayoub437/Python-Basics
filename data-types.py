@@ -27,4 +27,12 @@ print(Bill + 30)
 # That "inf" stands for infinity = unendlich
 # If in the console is "nan" = not a number. It means it is not calculable = berechenbar
 
-#
+# Now, I do some exercises with the basic data type "list".
+# With list, I can store multiple values to a variable.
+ShoppingList = ["Tomato", 23, "Jonas", 13, "Frankfurt"]
+print(type(ShoppingList))  # Here I try to figure out the data type
+
+# Another list
+Cars = ["Audi", "Opel", 30, "Ferrari"]
+
+print(Cars, ShoppingList)  # These 2 lists will be printed.
