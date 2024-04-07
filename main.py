@@ -58,7 +58,8 @@ print("The city where i wanna live is called 'Dubai' and my second favorite city
 age = "29"
 print("he is approximately " + age + " years old.")
 
-# Da ich hier strings als Datentyp verwende, werden die strings miteinander verkettet. The values are chained together.
+# Da ich hier strings als Datentyp verwende, werden die strings miteinander verkettet.
+# The values are chained together.
 print("Hallo" + " Welt")
 print("You are also capable of programming " + "games with Python.")
 
