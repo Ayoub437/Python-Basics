@@ -1,4 +1,4 @@
-# Working with data-types
+# Working with basic data-types.
 
 # Here I defined a value, but it changes because I add a new value in the print-function.
 # So in the console will be as result 55.
@@ -25,6 +25,4 @@ print(Bill + 30)
 
 # A good thing to know is if I have a number which is too big, an "inf" will appear in my console.
 # That "inf" stands for infinity = unendlich
-
-
 # If in the console is "nan" = not a number. It means it is not calculable = berechenbar
