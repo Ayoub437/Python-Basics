@@ -23,6 +23,8 @@ print(president_usa + " Barack Obama")
 Bill = 32.45
 print(Bill + 30)
 
-# A good thing to know is if I have a number which is too big, an "inf" will appear in my console.
+# NOTE: A good thing to know is if I have a number which is too big, an "inf" will appear in my console.
 # That "inf" stands for infinity = unendlich
 # If in the console is "nan" = not a number. It means it is not calculable = berechenbar
+
+#
