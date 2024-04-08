@@ -109,9 +109,24 @@ print(Numbers[:2])
 print(Numbers[:4])  # till the index 4, everything is printed.
 
 
-# Replacement
+# Replacements
 Numbers[2] = 200
 print(Numbers)
+# New list
+Games = ["Fifa", "Black ops", "The last of us", "Fortnite"]
+Games[0] = "Fifa 25"
+Games[3] = "Rainbow six siege"
+print(Games)
+Games[1] = "Black ops 3"
+print(Games)
+# New list
+Games = ["Football", "Tennis", "Table tennis", "american football", "Basketball"]
+print(Games)
+FamilyMembers = ["Boy", "Girl", "Mother", "Father"]
+FamilyMembers[3] = "father_lowercase"
+print(FamilyMembers)
+print(FamilyMembers[2:])
+print(FamilyMembers[:2])
 
 
 # A good view about lists
