@@ -107,8 +107,16 @@ Numbers = [20, 30, 40, 50, 60, 70]
 print(Numbers[-2:])  # At minus sign, it is from the end to the start.
 print(Numbers[:2])
 print(Numbers[:4])  # till the index 4, everything is printed.
-print(Numbers)
+
 
 # Replacement
 Numbers[2] = 200
 print(Numbers)
+
+
+# A good view about lists
+Houses = [100, 200, 300, 400, 500, 600, 700]
+# If I have double points at the beginning, it means it prints till index 4.
+print(Houses[:4])
+# Double points at the end, it means it prints from index 4 till the end
+print(Houses[4:])
