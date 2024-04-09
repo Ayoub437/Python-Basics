@@ -35,3 +35,10 @@ print(type(Table))  # Here I determine and print the data type of that value.
 Houses = 34.34
 print(Houses)
 print(type(Houses))
+
+# Same exercise
+Table = "Big"
+print(type(Table))
+
+window = "small"
+print(type(window))
