@@ -55,3 +55,14 @@ vacations = ["morocco", 33, "USA", 22]
 vacations.pop()
 vacations.pop()
 print(vacations)
+
+
+# The "remove-function" deletes a certain value/element of my list.
+# How? By writing the value inside the remove-function that shall be deleted.
+nations = ["austria", "USA", "Canada", "china"]
+nations.remove("USA")
+print(nations)
+
+countries = ["South-africa", "russia", "australia", "egypt"]
+countries.remove("russia")
+print(countries)
