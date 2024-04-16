@@ -43,3 +43,12 @@ print(variable3)
 
 variable4 += 3
 print(variable4)
+
+# Vergleichsoperatoren/ Comparison
+# Data type named bool
+print(2 < 4)  # In console is printed True
+print(2 != 3)  # True
+print(10 == 10)  # True
+print(4 == 5)  # False
+
+print(type(3 >= 1))
