@@ -59,8 +59,8 @@ print(type(3 >= 1))
 # Um mehrere Vergleiche miteinander in Beziehung zu setzen
 # These are expressions(= Ausdrücke) and that´s why you get
 # a truth value(=Wahrheitswert) like True or False.
-# In that logical or case, if just one of these expressions
-# is True, the logical or is going to be True as well.
+# In that logical "or" case, if just one of these expressions
+# is True, the logical "or" is going to be True as well.
 # And if both expressions are True, same result
 # "or" => logisches ODER       Beispiel: (a < b) or (c == d)
 # "and" => logisches UND       Beispiel: (a < b) and (c == d)
