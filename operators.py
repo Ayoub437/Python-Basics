@@ -66,3 +66,69 @@ print(type(3 >= 1))
 # "and" => logisches UND       Beispiel: (a < b) and (c == d)
 # If the claim is True, the logical not is going to be False.
 # "not" => logisches NICHT     Beispiel: not b
+
+
+# Bitwise operators/ Bitweise Operatoren
+# These operators always relates to binary numbers(= binäre Zahlen) of dual system.
+# The dual system represents just values with 0 and 1.
+# Every value from decimal system like 8 or 19 is changeable to 0 and 1 in dual system.
+# The decimal number of 010101 is 21.
+# Dual system is well suited(=gut geeignet) for systems with just two states(=Zustände). For example, on and off.
+# An example, I translate a decimal number to a binary number.
+# Dualsystem of 6: 0000 0110
+# Every binary number is moved to the left at 1./ Alle Zahlen werden um eins nach links verschoben.
+print(6 << 1)
+# Result of that is 12. Because I have 6 and want to move it to left.
+# Binary result is 0000 1100.
+
+# Another example
+# 0000 0111 that is number 7
+print(7 << 1)  # 0000 0111
+
+# Another example
+# 1010 that is 10.
+print(10 << 1)  # 10100 and console is 20
+
+# Another example
+# 11110 that is 30
+print(30 << 1)
+# is 11110 and Console is 60
+
+# Now, I want all bits to right.
+print(40 >> 1)  # 0001 0100
+# Console: 20
+
+print(6 >> 1)
+# Console is 3 and is binary 11
+
+
+# "AND"-operator:
+# individual bits is set to 0, while the other bits stay unchangeable/ Einzelne Bits werden auf 0 gesetzt.
+# All Bits that are set to 0 in the mask, are set to 0. / Alle Bits die in der Maske auf 1 sind, werden auf 1 gesetzt
+# All bits that are set to 1 in the mask remain unchanged.
+# Here I also use hexadecimal numbers.
+# Example:
+print(6 & 0xFD)  # Console: 4
+
+print(0xB & 0xCD)  # Console: 9
+
+print(8 & 0xCD)  # Console: 8
+
+print(4 & 0xDB)  # Console: 0
+
+
+# "OR"-operator:
+# Einzelne bits auf 1 setzen, während die anderen Bits unverändert bleiben
+# Alle Bits die in der Maske 1 sind, werden auf 1 gesetzt
+# Alle Bits die in der Maske auf 0 sind, bleiben unverändert.
+# Example:
+print(6 | 0x01)  # "|" => That is the "OR"-operator.
+
+
+
+# Exklusiv-ODER-Operator:
+# Bits werden invertiert.
+# Funktion der Maske: Alle Bits die in der Maske "1" sind, werden invertiert.
+# Alle Bits die in der Maske auf "0" sind, bleiben unverändert.
+# Example:
+print(8 ^ 0xDB)  # Console: 211
