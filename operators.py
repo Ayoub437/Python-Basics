@@ -125,7 +125,6 @@ print(4 & 0xDB)  # Console: 0
 print(6 | 0x01)  # "|" => That is the "OR"-operator.
 
 
-
 # Exklusiv-ODER-Operator:
 # Bits werden invertiert.
 # Funktion der Maske: Alle Bits die in der Maske "1" sind, werden invertiert.
