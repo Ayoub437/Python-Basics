@@ -6,6 +6,10 @@ number = int(input("Bitte gebe eine Ganzzahl ein: "))
 # Diesen Codeblock nennt man Anweisungskörper oder if-Block.
 if number < 10:  # "number < 10" ist eine Bedingung.
     print("Die eingegebene Zahl ist kleiner als 10.")
+    # Das ist ein else-Zweig.
+else:
+    # Wieder Anweisungskörper
+    print("Die eingegebene Zahl ist größer als 10.")
 
 # Es kann ein direkter Wahrheitswert True oder False als Bedingung drinne stehen. Z.b. if True:
 # Oder auch eine Variable. Z.b. variable = False -- if variable:
