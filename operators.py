@@ -54,20 +54,6 @@ print(4 == 5)  # False
 print(type(3 >= 1))
 
 
-# Logical operators
-# Why do I need that type of operator? To relate several comparisons to each other/
-# Um mehrere Vergleiche miteinander in Beziehung zu setzen
-# These are expressions(= Ausdrücke) and that´s why you get
-# a truth value(=Wahrheitswert) like True or False.
-# In that logical "or" case, if just one of these expressions
-# is True, the logical "or" is going to be True as well.
-# And if both expressions are True, same result
-# "or" => logisches ODER       Beispiel: (a < b) or (c == d)
-# "and" => logisches UND       Beispiel: (a < b) and (c == d)
-# If the claim is True, the logical not is going to be False.
-# "not" => logisches NICHT     Beispiel: not b
-
-
 # Bitwise operators/ Bitweise Operatoren
 # These operators always relates to binary numbers(= binäre Zahlen) of dual system.
 # The dual system represents just values with 0 and 1.
@@ -101,6 +87,19 @@ print(40 >> 1)  # 0001 0100
 print(6 >> 1)
 # Console is 3 and is binary 11
 
+
+# Logical operators
+# Why do I need that type of operator? To relate several comparisons to each other/
+# Um mehrere Vergleiche miteinander in Beziehung zu setzen
+# These are expressions(= Ausdrücke) and that´s why you get
+# a truth value(=Wahrheitswert) like True or False.
+# In that logical "or" case, if just one of these expressions
+# is True, the logical "or" is going to be True as well.
+# And if both expressions are True, same result
+# "or" => logisches ODER       Beispiel: (a < b) or (c == d)
+# "and" => logisches UND       Beispiel: (a < b) and (c == d)
+# If the claim is True, the logical not is going to be False.
+# "not" => logisches NICHT     Beispiel: not b
 
 # "AND"-operator:
 # individual bits is set to 0, while the other bits stay unchangeable/ Einzelne Bits werden auf 0 gesetzt.
