@@ -9,7 +9,7 @@ if number < 10:  # "number < 10" ist eine Bedingung.
     # Das ist ein else-Zweig.
 else:
     # Wieder Anweisungskörper
-    print("Die eingegebene Zahl ist größer als 10.")
+    print("Die eingegebene Zahl ist 10 oder größer als 10.")
 
 # Es kann ein direkter Wahrheitswert True oder False als Bedingung drinne stehen. Z.b. if True:
 # Oder auch eine Variable. Z.b. variable = False -- if variable:
@@ -45,3 +45,27 @@ else:
 # Die elif-Zweige sind also effizienter als nacheinander stehende if-Blöcke, da Sie Zeit spart.
 
 print("Hier gehts weiter")
+
+
+# Eine weitere Aufgabe
+# Die Print-Ausgabe ist an eine einfache Bedingung geknüpft.
+# Für diese Abfrage/Bedingung benötigt 4 Zeilen Code. Um das ganze Abzukürzen benutze ich einen bedingten Ausdruck.
+
+bill = 10
+
+Tip_Trinkgeld = float(input("Rechnung: " + str(bill) + " Euro, wie viel Trinkgeld möchten Sie geben?: "))
+
+if Tip_Trinkgeld < bill * 0.1:  # "bill * 0.1" -> die 0.1 stellt die 10% Trinkgeld dar, die in Deutschland gelten.
+    print("Vielen Dank!")
+else:
+    print("Wow, vielen lieben Dank! Sehr großzügig!")
+
+
+# Jetzt kommt das Thema "Bedingte Ausdrücke"/ conditional expression:
+# Bei dem bedingten Ausdruck ist es wichtig, das die Bedingung ein logischer Ausdruck sein muss. Es muss also der
+# Rückgabewert bei True oder False nach der Auswertung des logischen Ausdrucks zurückgegeben werden.
+# Ich kann einen beliebigen Ausdruck rein schreiben, z.b. eine Rechnung. Also nicht nur auf eine Print-Anweisung.
+# "Bedingter Ausdruck" ist etwas schwerer lesbar als das if-else-Konstrukt.
+# Mit dem if-else-Konstrukt ist es mehr Zeilen Code, aber dafür übersichtlicher.
+# A if Bedingung else B -> Übersetzt: Mache A wenn die Bedingung wahr ist, ansonsten mache B
+print("Vielen Dank!") if Tip_Trinkgeld < bill * 0.1 else print("Wow, vielen lieben Dank! Sehr großzügig!")
