@@ -21,3 +21,16 @@ while counter < 10:
     print("Das ist eine Ausgabe ...")
     counter += 1  # Es wird so lange um 1 erhöht, bis es 10 erreicht und somit False ist. Die Schleife ist nach dem
     # dritten mal beendet.
+
+
+# Hier möchte ich ein Formular programmieren, in welchem ein Nutzer aufgefordert wird, sein Password einzugeben.
+
+password = "passwort123"
+user_input = ""
+
+while user_input != password:  # Da die Bedingung True ist, wird der Schleifenkörper ausgeführt.
+    user_input = input("Bitte gebe das korrekte Password ein: ")  # Dieser Schleifenkörper wird im nächsten Durchlauf
+    # erneut abgefragt, wenn das Passwort falsch ist.
+    # Wenn die das Passwort korrekt eingegeben wurde, wird das Programm weiter laufen.
+
+print("Das Password wurde korrekt eingegeben.")
