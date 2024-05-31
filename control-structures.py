@@ -64,7 +64,7 @@ else:
 # Jetzt kommt das Thema "Bedingte Ausdrücke"/ conditional expression:
 # Bei dem bedingten Ausdruck ist es wichtig, das die Bedingung ein logischer Ausdruck sein muss. Es muss also der
 # Rückgabewert bei True oder False nach der Auswertung des logischen Ausdrucks zurückgegeben werden.
-# Ich kann einen beliebigen Ausdruck rein schreiben, z.b. eine Rechnung. Also nicht nur auf eine Print-Anweisung.
+# Ich kann einen beliebigen Ausdruck rein schreiben, z.b. eine Rechnung. Also nicht nur eine Print-Anweisung.
 # "Bedingter Ausdruck" ist etwas schwerer lesbar als das if-else-Konstrukt.
 # Mit dem if-else-Konstrukt ist es mehr Zeilen Code, aber dafür übersichtlicher.
 # A if Bedingung else B -> Übersetzt: Mache A wenn die Bedingung wahr ist, ansonsten mache B
