@@ -23,14 +23,37 @@ while counter < 10:
     # dritten mal beendet.
 
 
+# Die Schlüsselwörter break und continue:
+# Jetzt möchte ich ein Programm, welches dem Nutzer nur 3 versuche gibt, um sein Password korrekt einzugeben.
 # Hier möchte ich ein Formular programmieren, in welchem ein Nutzer aufgefordert wird, sein Password einzugeben.
 
 password = "passwort123"
 user_input = ""
+counter = 0  # Das soll der Zähler sein, in welchem Versuch ich bin.
 
 while user_input != password:  # Da die Bedingung True ist, wird der Schleifenkörper ausgeführt.
+    if counter == 3:
+        break  # Wenn break aufgerufen wird, wird der ganze Schleifenprozess abgebrochen. Würde dann bei print weiter...
     user_input = input("Bitte gebe das korrekte Password ein: ")  # Dieser Schleifenkörper wird im nächsten Durchlauf
     # erneut abgefragt, wenn das Passwort falsch ist.
-    # Wenn die das Passwort korrekt eingegeben wurde, wird das Programm weiter laufen.
+    counter += 1  # Der Zähler soll um 1 erhöht werden, weil es jetzt im nächsten Versuch ist.
+    # Wenn das Passwort korrekt eingegeben wurde, wird das Programm weiter laufen.
 
 print("Das Password wurde korrekt eingegeben.")
+
+
+# TASK 6: Das Schlüsselwort break im Zusammenhang mit einer while-Schleife:
+# Ich möchte dafür sorgen, dass der Nutzer aufgefordert wird, sein passwort einzugeben.
+passwort12 = "Hello123"
+user_input12 = ""
+counts = 0
+
+while user_input12 != passwort12:
+    if counts == 3:
+        break
+    user_input12 = input("Bitte gebe das Passwort ein: ")
+    counts += 1
+
+print("Das Passwort wurde korrekt eingegeben...")
+
+print("Hier geht es weiter")
