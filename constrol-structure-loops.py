@@ -44,6 +44,8 @@ print("Das Password wurde korrekt eingegeben.")
 
 # TASK 6: Das Schlüsselwort break im Zusammenhang mit einer while-Schleife:
 # Ich möchte dafür sorgen, dass der Nutzer aufgefordert wird, sein passwort einzugeben.
+# Jetzt möchte ich ein Programm, welches dem Nutzer nur 3 versuche gibt, um sein Password korrekt einzugeben.
+
 passwort12 = "Hello123"
 user_input12 = ""
 counts = 0
