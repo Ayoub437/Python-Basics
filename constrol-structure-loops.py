@@ -57,3 +57,18 @@ while user_input12 != passwort12:
 print("Das Passwort wurde korrekt eingegeben...")
 
 print("Hier geht es weiter")
+
+# Eine weitere Möglichkeit ist, die Counter-abfrage in die Bedingung einzubauen.
+# Wieder die selbe Aufgabe wie zuvor: ein Programm, welches dem Nutzer nur 3 versuche gibt, um sein Password korrekt
+# einzugeben.
+# Dafür kommt das if und das Schlüsselwort break weg.
+
+passwort13 = "neo44"
+user_input13 = ""
+counter = 0
+
+while passwort13 != user_input13 and counter < 3:
+    user_input13 = input("Bitte gebe das korrekte Passwort ein: ")
+    counter += 1
+
+print("Das Passwort wurde korrekt eingegeben...")
