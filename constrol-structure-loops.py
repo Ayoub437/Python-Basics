@@ -74,3 +74,21 @@ while passwort13 != user_input13 and counter < 3:
     counter += 1
 
 print("Das Passwort wurde korrekt eingegeben...")
+
+
+# Diese Aufgabe gehört zur oberen:
+# Eine Endlosschleife mit dem Schlüsselwort continue: Ohne break würde ich aus dieser Endlosschleife nicht
+# mehr raukommen.
+# Mithilfe von continue wird die Schleife nicht sofort beendet, sondern stattdessen wird nur der aktuelle
+# Schleifendurchlauf, also die Abarbeitung des Schleifenkörpers beendet. Und dann wird erneut die Bedingung abgefragt.
+
+while True:
+    name = input("Bitte Nutzernamen eingeben: ")
+    if name != "testUser":  # Wenn die Bedingung True ist, dann wird continue ausgeführt.
+        continue  # Der Rest dieses Schleifendurchlaufs soll übersprungen werden./ Der untere Teil (Schleifenkörper)
+        # wird nicht ausgeführt.
+    user_input13 = input("Hallo testUser, was ist dein Passwort? ")  # Passwort wurde bereits oben definiert.
+    if user_input13 == passwort13:
+        break  # Der Schleifenprozess soll beendet werden, da ich erfolgreich eingeloggt wurde.
+
+print("testUser wurde erfolgreich eingeloggt!")
