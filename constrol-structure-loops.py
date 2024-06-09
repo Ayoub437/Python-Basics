@@ -86,7 +86,7 @@ while True:
     name = input("Bitte Nutzernamen eingeben: ")
     if name != "testUser":  # Wenn die Bedingung True ist, dann wird continue ausgeführt.
         continue  # Der Rest dieses Schleifendurchlaufs soll übersprungen werden./ Der untere Teil (Schleifenkörper)
-        # wird nicht ausgeführt.
+        # wird nicht ausgeführt. Wenn continue ausgeführt wird, wird die Bedingung nochmal abgefragt.
     user_input13 = input("Hallo testUser, was ist dein Passwort? ")  # Passwort wurde bereits oben definiert.
     if user_input13 == passwort13:
         break  # Der Schleifenprozess soll beendet werden, da ich erfolgreich eingeloggt wurde.
