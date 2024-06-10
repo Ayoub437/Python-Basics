@@ -76,7 +76,8 @@ while passwort13 != user_input13 and counter < 3:
 print("Das Passwort wurde korrekt eingegeben...")
 
 
-# Diese Aufgabe gehört zur oberen:
+# Diese Aufgabe gehört zur oberen: Ich fordere den User auf, das Passwort dann den Nutzernamen und dann wieder das 
+# Passwort einzugeben.
 # Eine Endlosschleife mit dem Schlüsselwort continue: Ohne break würde ich aus dieser Endlosschleife nicht
 # mehr raukommen.
 # Mithilfe von continue wird die Schleife nicht sofort beendet, sondern stattdessen wird nur der aktuelle
