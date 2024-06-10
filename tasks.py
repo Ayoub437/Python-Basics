@@ -67,3 +67,44 @@ height = float(input("Körpergröße in Meter eingeben: "))
 bmi = weight / (height * height)
 # Ich caste die Variable bmi in ein string, da das noch als Zahlenwert vorliegt.
 print("Dein BMI ist: " + str(bmi))
+
+
+# TASK 6: Programm, welches den User auffordert seinen Nutzernamen, Geburtsdatum, Heimatstadt, E-Mail, Geschlecht,
+# Alter, Herkunft und Lieblingsfarbe:
+UserName = "Ayoub"
+Birthday = 25_08_2001
+
+e_mail = "ayoub.programmierwelt@gmail.com"
+Geschlecht = "Männlich"
+Alter = 22
+Herkunft = "Marokko"
+
+user_input = ""
+
+while True:
+    user_input = input("Bitte gebe deinen Nutzernamen ein: ")
+    if user_input != UserName:
+        continue
+    user_input = int(input("Bitte gib dein Geburtsdatum ein: "))
+    if user_input != Birthday:
+        continue
+    user_input = input("Bitte gib deine Heimatstadt ein: ")
+    if user_input != "Frankfurt":
+        continue
+    user_input = input("Danke Ayoub, Gib nun deine E-Mail ein: ")
+    if user_input != e_mail:
+        continue
+    user_input = input("Gib nun dein Geschlecht ein: ")
+    if user_input != Geschlecht:
+        continue
+    user_input = int(input("Gib dein Alter ein: "))
+    if user_input != Alter:
+        continue
+    user_input = input("Bitte gib dein Herkunftsland ein: ")
+    if user_input != Herkunft:
+        continue
+    user_input = input("Bitte gebe deine Lieblingsfarbe ein: ")
+    if user_input == "Blue":
+        break
+
+print("Du wurdest erfolgreich eingeloggt...")
