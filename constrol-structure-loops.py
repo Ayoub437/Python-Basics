@@ -32,14 +32,15 @@ user_input = ""
 counter = 0  # Das soll der Zähler sein, in welchem Versuch ich bin.
 
 while user_input != password:  # Da die Bedingung True ist, wird der Schleifenkörper ausgeführt.
+    # Wenn die Bedingung False ist, wird der else-Block ausgeführt.
     if counter == 3:
-        break  # Wenn break aufgerufen wird, wird der ganze Schleifenprozess abgebrochen. Würde dann bei print weiter...
+        break  # Wenn break aufgerufen wird, wird der ganze Schleifenprozess abgebrochen.
     user_input = input("Bitte gebe das korrekte Password ein: ")  # Dieser Schleifenkörper wird im nächsten Durchlauf
     # erneut abgefragt, wenn das Passwort falsch ist.
     counter += 1  # Der Zähler soll um 1 erhöht werden, weil es jetzt im nächsten Versuch ist.
     # Wenn das Passwort korrekt eingegeben wurde, wird das Programm weiter laufen.
-
-print("Das Password wurde korrekt eingegeben.")
+else:
+    print("Das Password wurde korrekt eingegeben.")
 
 
 # TASK 1: Das Schlüsselwort break im Zusammenhang mit einer while-Schleife:
@@ -55,8 +56,8 @@ while user_input12 != passwort12:
         break
     user_input12 = input("Bitte gebe das Passwort ein: ")
     counts += 1
-
-print("Das Passwort wurde korrekt eingegeben...")
+else:
+    print("Das Passwort wurde korrekt eingegeben...")
 
 print("Hier geht es weiter")
 
@@ -72,8 +73,8 @@ counter = 0
 while passwort13 != user_input13 and counter < 3:
     user_input13 = input("Bitte gebe das korrekte Passwort ein: ")
     counter += 1
-
-print("Das Passwort wurde korrekt eingegeben...")
+else:
+    print("Das Passwort wurde korrekt eingegeben...")
 
 
 # Diese Aufgabe gehört zur oberen: Ich fordere den User auf, das Passwort dann den Nutzernamen und dann wieder das 
