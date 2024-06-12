@@ -108,3 +108,39 @@ while True:
         break
 
 print("Du wurdest erfolgreich eingeloggt...")
+
+
+# TASK 7: Ein Programm, in welchem der Nutzer aufgefordert wird, sein Passwort, Geburtsdatum, Herkunftsland
+# und Geschlecht einzugeben, um eingeloggt zu werden
+passwort3 = "book"
+Geburtsdatum = 25_08_2001
+Herkunftsland = "Morocco"
+user_input = ""
+
+while user_input != passwort3:
+    user_input = input("Bitte gebe das korrekte Passwort ein: ")
+    if user_input != passwort3:
+        print("Das Passwort ist falsch! Bitte probiere es erneut!")
+        continue
+    elif user_input == passwort3:
+        print("Das Passwort ist richtig!")
+    user_input = int(input("Gebe nun bitte dein Geburtsdatum ein: "))
+    if user_input != Geburtsdatum:
+        print("Fehler! Bitte versuche es erneut!")
+        continue
+    elif user_input == Geburtsdatum:
+        print("Dein Geburtsdatum ist richtig!")
+    user_input = input("Bitte gebe dein Herkunftsland ein: ")
+    if user_input != Herkunftsland:
+        print("Deine Angabe ist falsch!")
+        continue
+    elif user_input == Herkunftsland:
+        print("Deine Angabe ist richtig!")
+    user_input = input("Bitte gebe dein Geschlecht ein: ")
+    if user_input != "Male":
+        print("Deine Angabe ist falsch! Versuche es erneut!")
+        continue
+    elif user_input == "Male":
+        print("All deine Daten stimmen überein!")
+        break
+print("Du wurdest erfolgreich eingeloggt...")
