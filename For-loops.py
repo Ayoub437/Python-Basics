@@ -26,3 +26,28 @@ print("Jetzt kommt eine weitere for-Schleife.")
 # Das erste Element ist der Buchstabe und so weiter...
 for string in "Das ist ein String":
     print(string)
+
+
+# Variante 2: # Die for-Schleife in Kombination mit der Funktion range() als Zählerschleife einsetzen.
+# Der Aufbau der for-Schleife bleibt exakt der gleiche. Nur anstelle des iterierbaren Objekts kommt die range() Funktion
+# Dieser Funktion kann man gewisse Parameter übergeben.
+# Die Funktion, mit dem Parameter 10, erzeugt ein iterierbares Objekt, welches Werte von 0-9 enthält. Also 10 Durchläufe
+# for Bereich in range(10):
+    # print(Bereich)
+
+# Hier soll der Startwert 3 und der Endwert 10 sein:
+# Hier wird als Rückgabewert in der Konsole ein iterierbares Objekt erzeugt, welches Werte von 3-9 enthalten.
+# Der Startwert, in dem Fall 3, wird im iterierbaren Objekt inkludiert, während der Endwert exkludiert wird.
+# Wichtig: Die Standard-Schrittweite ist immer 1. Ich kann die Schrittweite jedoch ändern.
+for numbers in range(3, 10):
+    print(numbers)
+
+print("Hier geht es Weiter...")
+
+# Änderung der Schrittweite: Der dritte Parameter bestimmt die Höhe der Schrittweite.
+for change in range(4, 36, 2):
+    print(change)  # Konsole: erster Durchlauf ist die 4. Zweiter Durchlauf ist die 6 und so weiter... Bis zu 34...
+
+# Das gleiche funktioniert auch mit negativen Schritten.
+for negative in range(10, 3, -2):
+    print(negative)  # Konsole/Rückgabewert/iterierbares Objekt: 10, 8, 6 und 4.
