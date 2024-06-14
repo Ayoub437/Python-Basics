@@ -1,6 +1,7 @@
 # Die For-Schleife - 2 Varianten möglich:
 # Mithilfe einer for-Schleife über ein iterierbares (= wiederholendes) Objekt laufen.
 # Die for-Schleife in Kombination mit der Funktion range() als Zählerschleife einsetzen.
+# Wann benötige ich eine for-Schleife? Wenn ich eine gewisse Anzahl an Wiederholungen vorgeben möchte.
 
 # Variante 1:
 # Der schleifenkopf ist die erste Zeile.
