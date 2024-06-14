@@ -1,6 +1,8 @@
 # While-Schleife:
 # Was ist eine While-Schleife?
 # Mithile einer Schleife kann man gewisse Code-Blöcke beliebig oft wiederholen.
+# Wann benötige ich eine while-Schleife?
+# Wenn ich Wiederholungen von Code durch eine konkrete Bedingung abhängig machen möchte.
 
 # "While" ist ein Schlüsselwort.
 # Dieses Beispiel ist eine Endlosschleife, da die Schleife unendlich oft ausgeführt wird.
