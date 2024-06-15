@@ -144,3 +144,22 @@ while user_input != passwort3:
         print("All deine Daten stimmen überein!")
         break
 print("Du wurdest erfolgreich eingeloggt...")
+
+
+# TASK 8: Ein Programm, welches die Zahlen von 1 bis 100 auf der Konsole ausgibt. Jede Zahl soll dabei in einer
+# seperaten Zeile ausgegeben werden.
+# Nun gilt es das Programm noch etwas zu erweitern. Und zwar sollst du jede Zahl, die durch 3 teilbar ist, durch den
+# Satz "teilbar durch 3" ersetzen. Jede Zahl, die durch 4 teilbar ist, soll durch den Satz "teilbar durch 4" ersetzt
+# werden. Jetzt wird es einige Zahlen geben, die sowohl durch 3 als auch durch 4 teilbar sind (z.B. die 12).
+# Bei diesen Zahlen soll dann "teilbar surch 3 und 4" ausgegeben werden.
+
+for numbers in range(1, 101):
+    if (numbers % 3) == 0 and (numbers % 4) == 0:  # Diese Abfrage muss als erstes stehen.
+        print("teilbar durch 3 und 4.")
+    elif (numbers % 3) == 0:
+        print("teilbar durch 3.")
+    elif (numbers % 4) == 0:
+        print("teilbar durch 4.")
+    else:
+        print(numbers)
+
