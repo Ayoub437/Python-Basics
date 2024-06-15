@@ -1,7 +1,7 @@
 # Die For-Schleife - 2 Varianten möglich:
 # Mithilfe einer for-Schleife über ein iterierbares (= wiederholendes) Objekt laufen.
 # Die for-Schleife in Kombination mit der Funktion range() als Zählerschleife einsetzen.
-# Wann benötige ich eine for-Schleife? Wenn ich eine gewisse Anzahl an Wiederholungen vorgeben möchte.
+# Wann benötige ich eine for-Schleife? Wenn ich eine gewisse Anzahl an Code-Wiederholungen vorgeben möchte.
 # Die Schlüsselwörter break und continue können auch bei der for-Schleife, sei es Variante 1 oder 2, verwendet werden.
 # Der else-Zweig kann wie bei der while-Schleife am Ende angehängt werden.
 
