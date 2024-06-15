@@ -163,3 +163,26 @@ for numbers in range(1, 101):
     else:
         print(numbers)
 
+
+# In dieser Aufgabe sollst du einen einfachen Taschenrechner programmieren. Zunächst soll der Nutzer dazu aufgefordert
+# werden, zwei beliebige Zahlen in das Programm einzulesen.
+# Danach soll der Nutzer mit einer dritten Eingabe entscheiden, welche Operation auf diesen beiden zuvor eingelesenen
+# Zahlen ausgeführt werden soll. Dabei soll der Nutzer die Möglichkeit haben, die beiden Zahlen miteinander zu addieren,
+# zu subtrahieren, zu dividieren oder zu multiplizieren.
+# Je nachdem für welche Operation sich der Nutzer entscheidet, soll dann das entsprechende Ergebnis auf der Konsole
+# ausgegeben werden.
+
+number1 = float(input("Gebe die erste Zahl ein: "))
+number2 = float(input("Gebe die zweite Zahl ein: "))
+operation = input("Welche Operation (+, -, *, /) soll durchgeführt werden: ")
+
+if operation == "+":
+    print(number1 + number2)
+elif operation == "-":
+    print(number1 - number2)
+elif operation == "*":
+    print(number1 * number2)
+elif operation == "/":
+    print(number1 / number2)
+else:
+    print("Ungültige Operation...")
