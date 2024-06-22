@@ -56,6 +56,12 @@ vacations.pop()
 vacations.pop()
 print(vacations)
 
+# I also can replace an element.
+# The element "haidi" is replaced by the new value "Mountain"
+list10 = [20, "haidi", "nase", 50]
+list10[1] = "Mountain"
+print(list10)
+
 
 # The "remove-function" deletes a certain value/element of my list.
 # How? By writing the value inside the remove-function that shall be deleted.
