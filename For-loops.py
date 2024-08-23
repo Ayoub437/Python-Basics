@@ -33,7 +33,7 @@ for string in "Das ist ein String":
 
 # Variante 2: # Die for-Schleife in Kombination mit der Funktion range() als Zählerschleife einsetzen.
 # Der Aufbau der for-Schleife bleibt exakt der gleiche. Nur anstelle des iterierbaren Objekts kommt die range() Funktion
-# Dieser Funktion kann man gewisse Parameter übergeben.
+# Dieser Funktion kann man gewisse Parameter übergeben, undzwar nur Integer.
 # Die Funktion, mit dem Parameter 10, erzeugt ein iterierbares Objekt, welches Werte von 0-9 enthält. Also 10 Durchläufe
 # for Bereich in range(10):
     # print(Bereich)
