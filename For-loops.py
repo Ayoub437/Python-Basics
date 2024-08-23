@@ -5,12 +5,12 @@
 # Die Schlüsselwörter break und continue können auch bei der for-Schleife, sei es Variante 1 oder 2, verwendet werden.
 # Der else-Zweig kann wie bei der while-Schleife am Ende angehängt werden.
 
-# Variante 1:
+# Variante 1: # Mithilfe einer for-Schleife über ein iterierbares (= wiederholendes) Objekt laufen.
 # Der schleifenkopf ist die erste Zeile.
 # Nach dem Schlüsselwort "for" kommt immer ein Bezeichner, den man natürlich beliebig bezeichnen kann.
 # Nach dem Bezeichner kommt das Schlüsselwort "in".
 # Daraufhin folgt dann ein iterierbares Objekt, über welches man drüberlaufen möchte.
-# Was ist ein iterierbares Objekt? Etwas, das ich durchlaufen kann. Zum Beispiel die 2 Datentypen string und list.
+# Was ist ein iterierbares Objekt? Etwas, das ich durchlaufen kann. Zum Beispiel die 3 Datentypen string, list und tupel.
 # Mit dem Start der for-Schleife wird jetzt jedes Element des iterierbaren Objekts, was in diesem Fall die Liste ist,
 # mit jeweils einem eigenen Schleifendurchlauf, durchlaufen.
 # Mithilfe des Bezeichners kann ich innerhalb des Schleifenkörpers auf das jeweilige Element, je nachdem in welchen
